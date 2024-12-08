@@ -9,7 +9,9 @@ connection = happybase.Connection(host='localhost', port=9090 ,autoconnect=False
 #open connection to perform operations
 def open_connection():
     connection.open()
+    connection.close()
 
+    
 #close the opened connection
 def close_connection():
     connection.close()
