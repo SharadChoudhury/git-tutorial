@@ -1,5 +1,6 @@
 import happybase
 import sys
+import re
 
 #create connection
 connection=2
