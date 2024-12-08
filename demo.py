@@ -1,11 +1,11 @@
 import happybase
 import sys
 import re
-
+import os
 #create connection
 connection=2
 connection = happybase.Connection(host='localhost', port=9090 ,autoconnect=False)
-
+#mmmmmmmmmmmmmm
 #open connection to perform operations
 def open_connection():
     connection.open()
