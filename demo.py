@@ -1,4 +1,5 @@
 import happybase
+import re
 
 #create connection
 connection = happybase.Connection(host='localhost', port=9090 ,autoconnect=False)
